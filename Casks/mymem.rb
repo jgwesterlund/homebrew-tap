@@ -20,9 +20,8 @@ cask "mymem" do
   ]
 
   caveats <<~EOS
-    myMem is currently unsigned. macOS Gatekeeper will block the first launch
-    unless you either install with:
-      brew install --cask mymem --no-quarantine
-    or right-click the app and choose "Open" the first time.
+    myMem is currently unsigned, so macOS Gatekeeper blocks the first launch.
+    Right-click /Applications/myMem.app and choose "Open" (needed once), or:
+      xattr -dr com.apple.quarantine /Applications/myMem.app
   EOS
 end
