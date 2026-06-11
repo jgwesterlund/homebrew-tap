@@ -1,8 +1,8 @@
 class Mym < Formula
   desc "CLI for myMem — search, read and write your local notes from any agent"
   homepage "https://github.com/jgwesterlund/mymem"
-  url "https://github.com/jgwesterlund/mymem/archive/refs/tags/v1.1.1.tar.gz"
-  sha256 "59ecae6fb5bf241f0e227feb510d789342cf5157127edd715c7cee2598d91047"
+  url "https://github.com/jgwesterlund/mymem/archive/refs/tags/v1.2.0.tar.gz"
+  sha256 "fff79c6d9f53a6acf6df9f309e21d2560ad979658e3edb090f6f25c1b376d18b"
   license "MIT"
 
   depends_on "go" => :build
