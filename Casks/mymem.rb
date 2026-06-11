@@ -8,6 +8,7 @@ cask "mymem" do
   homepage "https://github.com/jgwesterlund/mymem"
 
   # arm64-only build; Apple Silicon implies macOS >= 11 by definition.
+  depends_on :macos
   depends_on arch: :arm64
 
   app "myMem.app"
