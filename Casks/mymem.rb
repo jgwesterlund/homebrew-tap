@@ -1,6 +1,6 @@
 cask "mymem" do
-  version "1.2.0"
-  sha256 "53e7fd0015776489db1893c04ece7f298c1c03f3eef8a4ae9921820486f45884"
+  version "1.3.0"
+  sha256 "16e1ebcb34150e4723eaed2c2b4bdb31e71cb8be438a383e9191684a8866cd18"
 
   url "https://github.com/jgwesterlund/mymem/releases/download/v#{version}/myMem-#{version}-arm64.dmg"
   name "myMem"
