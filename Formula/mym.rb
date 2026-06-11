@@ -14,7 +14,9 @@ class Mym < Formula
   end
 
   test do
-    # Without the myMem app running there is no socket — the CLI must say so clearly.
+    # Point at a dead socket so the test is deterministic even when the
+    # myMem app happens to be running on the build machine.
+    ENV["MYMEM_SOCKET"] = (testpath/"none.sock").to_s
     output = shell_output("#{bin}/mym status 2>&1", 2)
     assert_match "myMem is not running", output
   end
