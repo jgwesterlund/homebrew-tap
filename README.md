@@ -15,3 +15,13 @@ brew install --cask mymem
 # search, read and write your notes while the app is running
 brew install jgwesterlund/tap/mym
 ```
+
+## [Agent View](https://github.com/jgwesterlund/agent-view) — cyberpunk pixel-art office for your herdr agents
+
+```sh
+# A live pixel-art room where every herdr agent is a little character:
+# working agents type at their desk, blocked agents jump and wave for input,
+# idle agents watch TV or slurp ramen. Apple Silicon, macOS 14+.
+brew install --cask agent-view
+```
+
