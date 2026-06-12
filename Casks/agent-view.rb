@@ -1,6 +1,6 @@
 cask "agent-view" do
-  version "0.1.0"
-  sha256 "c55272fa2edaf79bbb94fcfcd63d38c0ff82fc2a5593fb0b3df96e777adf497a"
+  version "0.1.1"
+  sha256 "7cd5cbc94726eb60331a318b633c1bec511a508fe1b7b6c1986fc611281a79b9"
 
   url "https://github.com/jgwesterlund/agent-view/releases/download/v#{version}/AgentView-#{version}-arm64.zip",
       verified: "github.com/jgwesterlund/agent-view/"
